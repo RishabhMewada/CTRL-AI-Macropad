@@ -20,7 +20,7 @@ customization & productivity in mind , ensuring optimization of the project
 
 -------------------------------------------------------------------------------------------------
 ## Features
-- 6 mechanical keys (MX cherry switches)
+- 6 mechanical keys (Cherry MX compatible)
 - Rotary encoder with push button
 - IPS SPI display
 - Raspberry Pi Pico (RP2040)
@@ -28,25 +28,31 @@ customization & productivity in mind , ensuring optimization of the project
 - Open-source hardware & firmware
 -------------------------------------------------------------------------------------------------
 ## Hardware
-- The PCB was designed in KiCad (opensource software) & fusion 360
-- 2-layer board
+- PCB designed using **KiCad** (open-source) and **Fusion 360**
+- 2-layer PCB
 - Diode-protected key matrix
 - SPI-connected IPS display
-all PCB files in `/hardware/kicad`.
+
+All PCB source files are available in `/hardware/kicad`.
+
 
 ![0111(3)](https://github.com/user-attachments/assets/b63ff671-658b-4ba5-a15d-6402b3deaaeb)
 
 -------------------------------------------------------------------------------------------------
-## Firmware
-The firmware is written using KMK and CircuitPython.
-Currently, it supports basic key mapping and encoder input.
 
-there are also future plans for the hackpad 
-Future plans include:
+## Firmware
+The firmware is written using **KMK** and **CircuitPython**.
+
+Currently supported:
+- Basic key mapping
+- Rotary encoder input
+
+Planned features:
 - Dynamic key remapping
 - Software-based configuration tool
 - Display-driven UI
-Firmware is in `/firmware`.
+
+Firmware files are located in `/firmware`.
 
 -------------------------------------------------------------------------------------------------
 ## Case
@@ -62,14 +68,17 @@ The enclosure is designed in Fusion 360 (personal use).
 <img width="803" height="557" alt="assembled-case" src="https://github.com/user-attachments/assets/95c67418-6ab1-4e1c-b6ce-ca660ebd0613" />
 
 -------------------------------------------------------------------------------------------------
-## BOM
-The complete BOM with purchase links is available in `/hardware/bom.csv`.
 
-Services that will be used 
-- JLCPCB
-- Robu.in (for india)
-- online 3d printing services (if not provided)
+## BOM
+The complete bill of materials (BOM), including purchase links, is available in  
+`/hardware/bom.csv`.
+
+Manufacturing & sourcing:
+- PCB fabrication: **JLCPCB**
+- Components (India): **Robu.in**
+- Enclosure: Online 3D printing services
+  
 -------------------------------------------------------------------------------------------------
 ## License
-This project is open-source hardware and uses the MIT License
+This project is open-source hardware and software and is released under the **MIT License**.
 
