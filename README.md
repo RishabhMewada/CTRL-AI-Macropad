@@ -1,5 +1,6 @@
 # CTRL-AI-Macropad
 <img width="1419" height="571" alt="Screenshot 2025-12-28 222231" src="https://github.com/user-attachments/assets/f7881569-19a2-49f7-9838-46889130ec1f" />
+v1.0 – Initial hardware, firmware, and enclosure design
 
 ## What is CTRL?
 CTRL is a custom-built programmable macropad designed for productivity,
