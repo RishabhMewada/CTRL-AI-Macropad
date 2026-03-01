@@ -1,0 +1,24 @@
+1. Test Matrix (Keys)
+SW1 (GP2+GP6) - Copy
+SW2 (GP2+GP7) - Paste  
+SW3 (GP2+GP8) - Cut
+SW4 (GP3+GP6) - Undo
+SW5 (GP3+GP7) - Save
+SW6 (GP3+GP8) - Hold for Layer 1
+2. Test Encoder
+
+Rotate clockwise → Volume up
+Rotate counter-clockwise → Volume down
+Hold SW6 + rotate → Navigate left/right
+
+3. Test Display
+
+Should show "CTRL v2.3 READY" on startup
+Shows layer name when switching layers
+Shows key feedback when pressing keys
+
+4. Layer Navigation
+
+Hold SW6 → Access Layer 1 (Media)
+From Layer 1, hold SW6 → Access Layer 2 (Developer)
+In Layer 2, press SW6 → Return to Layer 0
