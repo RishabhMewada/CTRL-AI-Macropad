@@ -14,17 +14,17 @@ Originally developed as a programmable macropad, the project has evolved into a 
 ## Purpose 
 The goal of this project was to design a fully custom embedded input system from scratch — including:
 
->PCB design
->Multi-MCU system architecture
->Power management circuitry
->Firmware modularization
->Custom enclosure
->This project focuses on understanding:
->Embedded system design
->Hardware-software co-design
->Power-aware firmware
->Multi-transport communication (USB + BLE)
->Expandable interaction hardware
+- PCB design
+- Multi-MCU system architecture
+- Power management circuitry
+- Firmware modularization
+- Custom enclosure
+- This project focuses on understanding:
+- Embedded system design
+- Hardware-software co-design
+- Power-aware firmware
+- Multi-transport communication (USB + BLE)
+- Expandable interaction hardware
 
 The system is built with future extensibility in mind rather than being limited to fixed macro execution.
 
@@ -37,38 +37,38 @@ The system is built with future extensibility in mind rather than being limited 
 
 *Core Hardware*
 
-> 6 Mechanical Keys (Cherry MX compatible)
-> Rotary Encoder with integrated push switch
-> 1.14″ IPS SPI Display (ST7789)
-> Raspberry Pi Pico (RP2040)
-> BLE Co-Processor (UART interface)
-> Li-ion battery support
-> On-board charging IC
-> Software-controlled power system
-> Fully custom 2-layer PCB
-> Expansion GPIO header
-> SWD debug header
+- 6 Mechanical Keys (Cherry MX compatible)
+- Rotary Encoder with integrated push switch
+- 1.14″ IPS SPI Display (ST7789)
+- Raspberry Pi Pico (RP2040)
+- BLE Co-Processor (UART interface)
+- Li-ion battery support
+- On-board charging IC
+- Software-controlled power system
+- Fully custom 2-layer PCB
+- Expansion GPIO header
+- SWD debug header
 -------------------------------------------------------------------------------------------------
 ## Transport & Connectivity
 
->USB HID (via Raspberry Pi Pico)
-> Bluetooth HID (via BLE co-processor)
-> UART-based inter-MCU communication
-> I²C sensor bus (IMU connected with interrupt support)
+- USB HID (via Raspberry Pi Pico)
+- Bluetooth HID (via BLE co-processor)
+- UART-based inter-MCU communication
+- I²C sensor bus (IMU connected with interrupt support)
 -------------------------------------------------------------------------------------------------
 ## Hardware
 The PCB is designed using KiCad (open-source) and Fusion 360.
 
 Specifications
 
-2-layer PCB
-> Diode-protected key matrix
-> SPI-connected IPS display
-> I²C IMU (interrupt-driven)
-> UART-connected BLE module
-> Li-ion battery charging circuit (MCP73831)
-> 3.3V LDO regulator (AP2112K)
-> Single USB-C interface (handled by Pico only)
+- 2-layer PCB
+- Diode-protected key matrix
+- SPI-connected IPS display
+- I²C IMU (interrupt-driven)
+- UART-connected BLE module
+- Li-ion battery charging circuit (MCP73831)
+- 3.3V LDO regulator (AP2112K)
+- Single USB-C interface (handled by Pico only)
 
 All PCB source files are available in `/hardware/kicad`.
 
