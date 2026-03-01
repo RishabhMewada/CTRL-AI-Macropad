@@ -138,9 +138,10 @@ PETG can be used for improved durability and heat resistance, though it may requ
 
 -------------------------------------------------------------------------------------------------
 ## Images
-<img width="1139" height="808" alt="Pcb" src="https://github.com/user-attachments/assets/395aed8f-0ed4-41ae-b612-e8b5305dca23" />
+<img width="1200" height="778" alt="Screenshot 2026-03-02 000604" src="https://github.com/user-attachments/assets/fc1856a6-6f17-4dbf-9257-43dde1d9de0a" />
 
-<img width="803" height="557" alt="assembled-case" src="https://github.com/user-attachments/assets/95c67418-6ab1-4e1c-b6ce-ca660ebd0613" />
+<img width="857" height="609" alt="Screenshot 2026-03-02 001558" src="https://github.com/user-attachments/assets/3768f88b-f574-4e61-befc-6df7d789b3db" />
+
 
 -------------------------------------------------------------------------------------------------
 
@@ -148,9 +149,9 @@ PETG can be used for improved durability and heat resistance, though it may requ
 CTRL is designed to support AI-assisted workflows through a host-based companion application.
 AI processing will run on the host computer, while CTRL serves as:
 
-~ A low-latency physical interface
-~ A status display device
-~ A context-aware shortcut controller
+~ low-latency physical interface
+~ status display device
+~ context-aware shortcut controller
 
 The hardware architecture is transport-agnostic, enabling flexible integration with higher-level software systems.
 
